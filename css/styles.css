@@ -23,4 +23,9 @@ body {
 .gallery-image {
   width: 100%;
   height: 100%;
+  transition: 0.5s scale cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.gallery-image:hover {
+  scale: 1.05;
 }
